@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Discover your Adventure</h1>
+            <p>Plan your trip easily</p>
+            <button class="start-btn" id="startButton">Start Now</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#filter">Filter</a></li>
+            <li><a href="tips-guides.html">Tips & Guides</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="filter">
+        <h2>Filter Destinations</h2>
+        <select id="destinationFilter">
+            <option value="all">All</option>
+            <option value="adventure">Adventure</option>
+            <option value="beach">Beach</option>
+            <option value="city">City</option>
+            <option value="cultural">Cultural</option>
+            <option value="wildlife">Wildlife</option>
+        </select>
+    </section>
+
+    <section id="carousel" class="carousel">
+        <button class="prev-btn">&#10094;</button>
+        <div class="carousel-images">
+            <img src="assets/images/destination1.jpeg" alt="">
+            <img src="assets/images/destination2.jpeg" alt="">
+            <img src="assets/images/destination3.jpeg" alt="">
+            <img src="assets/images/destination4.jpeg" alt="">
+            <img src="assets/images/destination5.jpeg" alt="">
+        </div>
+        <button class="next-btn">&#10095;</button>
+        <div class="carousel-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <section id="destinations" class="destination-list">
+        <div class="destination-item" data-category="">
+            <img src="assets/images/destination1.jpeg" alt="Indonesia">
+            <h3>Indonesia</h3>
+            <p>Discover the serene mountain landscapes.</p>
+        </div>
+        <div class="destination-item" data-category="">
+            <img src="assets/images/destination2.jpeg" alt="Indonesia">
+            <h3>Indonesia</h3>
+            <p>Relax by the crystal clear waters.</p>
+        </div>
+        <div class="destination-item" data-category="">
+            <img src="assets/images/destination3.jpeg" alt="Indonesia">
+            <h3>Indonesia</h3>
+            <p>Enjoy the vibrant city life.</p>
+        </div>
+        <div class="destination-item" data-category="">
+            <img src="assets/images/destination4.jpeg" alt="Indonesia">
+            <h3>Indonesia</h3>
+            <p>Experience the thrill of desert adventures.</p>
+        </div>
+        <div class="destination-item" data-category="">
+            <img src="assets/images/destination5.jpeg" alt="Indonesia">
+            <h3>Indonesia</h3>
+            <p>Explore the ancient wonders and cultural heritage.</p>
+        </div>
+        <div class="destination-item" data-category="">
+            <img src="assets/images/destination6.jpeg" alt="Indonesia">
+            <h3>Indonesia</h3>
+            <p>Discover the beauty of wildlife and nature.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Planner. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
